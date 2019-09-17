@@ -1,5 +1,5 @@
 1. What is a gitignore file and what should it include for a Java project?
-	A .gitignore file contains patterns or files that you want git to ignore on a commit. When we add our complete work directory git will ignore those files which matches the patterns in .gitignore . The .gitignore for a java project should include the package files (.jar, .war, .nar, .rar, .zip etc), class files (.class), log file (.log), IDE files and mobile tools for java (J2ME).
+	A .gitignore file contains patterns or files that you want git to ignore on a commit. When we add our complete work directory git will ignore those files which matches the patterns in .gitignore . The .gitignore for a java project should include the package files (.jar, .war, .nar, .rar, .zip etc), class files (.class), log file (.log), IDE files, BlueJ files and mobile tools for java (J2ME).
 
 2. What does fast-forward in Git mean?
 	Fast-forwarding in git simply means updating the head to the latest commit. Suppose the master branch is one commit behind the testbranch and you merge these branches then git simplifies this merge by moving the pointer of master to the latest commit.
